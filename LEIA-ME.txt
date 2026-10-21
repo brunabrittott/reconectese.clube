@@ -1,0 +1,74 @@
+CLUBE RECONECTE-SE — PÁGINA PARA SEU SITE
+
+1. ARQUIVOS
+index.html: página completa.
+style.css e color.css: visual responsivo, isolado dentro de #reconecte-page.
+Mantenha color.css depois de style.css para a identidade colorida atual.
+script.js: formulário, vídeos e mensagens.
+config.js: links a preencher antes da publicação.
+assets/: logo, foto da Bruna, fotos otimizadas e os seis vídeos enviados.
+receber-cadastros.gs: integração opcional com Google Sheets.
+
+2. SUBIR COMO UMA PÁGINA DO SITE
+Envie esta pasta inteira para uma subpasta, por exemplo /reconecte-se/.
+Acesse /reconecte-se/index.html. Preserve a pasta assets e os nomes.
+Não basta enviar apenas o HTML: ele usa CSS, JavaScript e mídias locais.
+A página não depende de bibliotecas nem de fontes externas.
+
+WordPress: o caminho mais simples é hospedar esta pasta no servidor e vinculá-la
+no menu. Um bloco HTML do editor pode bloquear scripts ou não resolver os caminhos.
+Para integrar ao tema, inclua style.css, color.css, config.js e script.js, copie o conteúdo
+de #reconecte-page e ajuste todos os caminhos assets/ para a URL da pasta.
+Não cole as tags html/head/body dentro de uma página existente.
+
+3. CONFIGURAR LINKS EM config.js
+communityUrl: link completo https://chat.whatsapp.com/... do grupo.
+privacyUrl: URL HTTPS da política de privacidade do seu site.
+contactUrl: canal de contato (padrão: Instagram do clube).
+formUrl: URL HTTPS /exec do Apps Script, conforme o passo seguinte.
+Nenhum desses campos deve conter senha ou credencial.
+Sem link de comunidade, os botões explicam que o acesso está pendente.
+Sem integração ou política, o formulário NÃO envia dados nem simula sucesso.
+
+4. ATIVAR O CADASTRO EM UMA PLANILHA
+Crie uma NOVA planilha para interesses — diferente das inscrições antigas.
+Abra Extensões > Apps Script e cole receber-cadastros.gs.
+Execute preparar() uma vez e autorize o acesso.
+Implante como App da Web: executar como você; acesso para qualquer pessoa.
+Copie a URL terminada em /exec para formUrl em config.js.
+Preencha privacyUrl com a política do seu site, contemplando esse cadastro.
+Faça um cadastro de teste no site publicado. Confirme a nova linha na planilha
+e só então considere o formulário pronto para visitantes.
+Alterações futuras no Apps Script exigem atualizar a versão implantada.
+A mensagem de sucesso exige uma resposta real do servidor. Falhas não exibem
+confirmação. O envio pode falhar caso o servidor ou navegador bloqueie a integração;
+nesse caso, ajuste a integração com quem administra seu site.
+O cadastro não adiciona pessoas ao WhatsApp e não envia campanhas automaticamente.
+
+5. MÍDIAS
+Imagens convertidas para WebP; originais preservados nos Downloads.
+Vídeos copiados sem alterar o conteúdo. Carregam somente sob demanda,
+exceto o depoimento, que solicita apenas metadados.
+depoimento.mp4 corresponde ao último vídeo listado pelo usuário:
+WhatsApp Video 2026-10-21 at 13.07.07 (1).mp4.
+Os demais cinco vídeos ficam na área expansível de registros.
+Não foram criadas falas, transcrições ou citações atribuídas às participantes.
+
+6. RECURSOS
+FAQ expansível, layout para celular, navegação por teclado, formulário com
+validação, seleção direta de interesse no grupo terapêutico, consentimento,
+controle manual dos vídeos e pausa de um vídeo quando outro começa.
+
+PENDÊNCIAS PARA PUBLICAR
+Configurar link do grupo, política de privacidade e destino dos cadastros.
+Validar um envio real após ativar a integração.
+
+ATUALIZAÇÃO DO FORMULÁRIO
+Nome, WhatsApp, cidade, e-mail opcional e interesse opcional no grupo terapêutico.
+Use uma planilha nova ou ajuste o cabeçalho para:
+Data | Nome | WhatsApp | E-mail | Cidade | Interesse no grupo terapêutico | Consentimento | Origem.
+Atualize também o Apps Script antes de usar esta versão.
+
+PLANILHA CRIADA NO DRIVE
+https://docs.google.com/spreadsheets/d/1SUBJDwGzeayWWMZDrNiAxEn8ppxKoA5CKSJ1Y07Cx-Q/edit
+O script já aponta para essa planilha. Falta implantar o App da Web e inserir sua URL em config.js.

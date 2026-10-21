@@ -1,0 +1,123 @@
+/* Identidade viva: laranja, vinho e off-white. */
+#reconecte-page{--paper:#fff8ec;--ink:#50000b;--green:#50000b;--orange:#de4817;--line:#dfbdab;font-family:'Trebuchet MS',Arial,sans-serif}
+#reconecte-page h1,#reconecte-page h2{font-family:'Trebuchet MS',Arial,sans-serif;font-weight:800;letter-spacing:-2.5px;line-height:1.07}
+#reconecte-page h2 em{font-family:Georgia,serif;font-weight:400;letter-spacing:-1px}
+#reconecte-page .header{background:#fff8ec;border:0;padding-block:24px}
+#reconecte-page .wordmark{font-weight:700;color:#50000b}
+#reconecte-page .button{border-radius:100px;background:#50000b;border:0;padding:17px 26px;font-size:13px;box-shadow:0 5px 0 #5b1026}
+#reconecte-page .button:hover{background:#9a2245;transform:translateY(-2px)}
+#reconecte-page .hero{width:100%;max-width:none;margin:0;padding:65px max(48px,calc((100% - 1200px)/2)) 85px;background:#f36a29;grid-template-columns:1.15fr 1fr;position:relative;isolation:isolate;gap:32px}
+#reconecte-page .hero:after{content:'✿';position:absolute;left:43%;bottom:-55px;font-size:200px;line-height:1;color:#f9ba50;z-index:-1;transform:rotate(15deg)}
+#reconecte-page .hero-copy{position:relative;z-index:1}
+#reconecte-page .hero .eyebrow{letter-spacing:3px;margin-bottom:30px;color:#50000b}
+#reconecte-page .hero h1{font-size:clamp(58px,6.5vw,94px);letter-spacing:-5px;position:relative;margin-bottom:25px;line-height:1.02;overflow-wrap:normal}
+#reconecte-page .club-label{font-size:22px;display:block;letter-spacing:0;margin-bottom:12px;font-weight:500}
+#reconecte-page .title-flower{display:inline-block;color:#fff0cf;font-size:55px;vertical-align:top;margin-left:8px;line-height:1.3}
+#reconecte-page .descriptor{color:#50000b;font-size:clamp(21px,2.2vw,30px);font-weight:700;line-height:1.3;max-width:550px;margin-bottom:25px}
+#reconecte-page .hero-copy>p:not(.eyebrow):not(.club):not(.descriptor){font-size:15px;max-width:480px;color:#50000b}
+#reconecte-page .hero-visual{min-height:545px;padding:0}
+#reconecte-page .hero-logo{inset:0 0 135px 85px;border:7px solid #fff5df;border-radius:170px 170px 15px 15px;transform:rotate(7deg);box-shadow:12px 12px 0 #921e3b}
+#reconecte-page .hero-photo{bottom:0;left:0;width:88%;height:245px;border:8px solid #fff7e6;box-shadow:10px 10px 0 #b63429}
+#reconecte-page .photo-note{background:#ffdf7d;color:#50000b;font-size:19px;right:-10px;bottom:160px;border-radius:40% 45% 35% 40%;padding:25px;box-shadow:none}
+#reconecte-page .ribbon{background:#50000b;color:#fff2d7;font-weight:bold;padding-block:23px;gap:40px}
+#reconecte-page .section{padding-block:85px}
+#reconecte-page .intro{gap:65px}
+#reconecte-page .intro-image img{border-radius:120px 10px 120px 10px;border:8px solid #f7a144;box-shadow:-16px 16px 0 #50000b;height:520px}
+#reconecte-page .image-label{background:#ffdb74;color:#50000b;border-radius:6px}
+#reconecte-page .handwritten{font-size:28px;color:#c6421b}
+#reconecte-page .memories{background:#f8af42;position:relative}
+#reconecte-page .memories h2 em{color:#8b1839}
+#reconecte-page .gallery{gap:25px}
+#reconecte-page .gallery figure{background:#fff8ec;padding:12px 12px 17px;border-radius:13px;box-shadow:6px 7px 0 #a53532}
+#reconecte-page .gallery figure:nth-child(1){transform:rotate(-3deg)}
+#reconecte-page .gallery figure:nth-child(2){padding-top:12px;transform:rotate(2deg);margin-top:28px}
+#reconecte-page .gallery figure:nth-child(3){transform:rotate(-2deg)}
+#reconecte-page .gallery img{height:340px;border-radius:7px}
+#reconecte-page figcaption{font-weight:bold}
+#reconecte-page .gallery-foot{margin-top:45px}
+#reconecte-page .more-videos{border-color:#8e3b3466}
+#reconecte-page .testimonial{position:relative}
+#reconecte-page .testimonial:before{content:'✿';position:absolute;left:27%;bottom:40px;color:#f36a29;font-size:150px;line-height:1;transform:rotate(-10deg);pointer-events:none}
+#reconecte-page .testimonial video{border:8px solid #50000b;border-radius:140px 140px 15px 15px;box-shadow:15px 15px 0 #f6a645}
+#reconecte-page .community{background:#50000b;color:#fff4df}
+#reconecte-page .community em{color:#ffb14b}
+#reconecte-page .community .light{background:#ffb14b;color:#50000b;box-shadow:0 5px 0 #d84924}
+#reconecte-page .community .light:hover{background:#ffc26f}
+#reconecte-page .community-aside img{border-radius:15px 110px 15px 110px;border:7px solid #f6853b}
+#reconecte-page .community-note{background:#ffb14b;color:#50000b;border-radius:12px;box-shadow:6px 6px 0 #a73244}
+#reconecte-page .community-note em{color:#50000b}
+#reconecte-page .therapy{grid-template-columns:.65fr 1.4fr;gap:65px}
+#reconecte-page .therapy-mark{color:#ed6228;font-size:250px;text-shadow:12px 12px #fac477}
+#reconecte-page .status-dot{background:#df4b1c}
+#reconecte-page .therapy .eyebrow{display:inline-block;border:1px solid #db7750;border-radius:40px;padding:8px 14px;background:#fff0da}
+#reconecte-page .about{background:#f6c6ae}
+#reconecte-page .about-photo img{border-radius:130px 12px 12px 12px;border:8px solid #fff8ec;box-shadow:14px 14px 0 #e7642b}
+#reconecte-page .bruna-instagram{display:inline-block;font-weight:bold;color:#50000b;border-bottom:2px solid #d74a25;font-size:14px;margin:0 0 24px}
+#reconecte-page .signature{border-color:#a7465355}
+#reconecte-page .faq details{border-color:#e4ba9a}
+#reconecte-page .faq summary:after{color:#c94319}
+#reconecte-page .faq details[open]{background:#fff0d8;border-radius:8px;padding-inline:15px}
+#reconecte-page .signup{background:#ee652b;color:#50000b}
+#reconecte-page .signup-grid{grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+#reconecte-page .signup-intro{position:static}
+#reconecte-page .signup-intro h2{font-size:clamp(38px,4.5vw,62px)}
+#reconecte-page .signup-intro h2 em{color:#fff4df}
+#reconecte-page .signup-intro img{display:none}
+#reconecte-page .form-card{border:0;border-radius:22px;background:#fff8ec;padding:30px;box-shadow:10px 10px 0 #8a1e39}
+#reconecte-page .form-card h3{font-family:'Trebuchet MS',Arial,sans-serif;font-weight:700;font-size:22px;line-height:1.25;margin-bottom:20px;max-width:350px}
+#reconecte-page .form-fields{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+#reconecte-page .form-fields label{display:block;font-size:11px;font-weight:bold;margin:0 0 5px}
+#reconecte-page .form-fields input{padding:11px 12px;font-size:12px;border-color:#dfb7a3;border-radius:7px;min-width:0;background:#fffdf7}
+#reconecte-page .therapy-opt{display:flex;gap:9px;font-weight:400;font-size:11px;line-height:1.5;margin:18px 0 12px;background:#f8e3ce;padding:12px;border-radius:8px}
+#reconecte-page input[type=checkbox]{accent-color:#50000b}
+#reconecte-page form>.consent{font-size:10px;margin-top:10px}
+#reconecte-page form .privacy-link{margin:10px 0 17px;font-size:10px}
+#reconecte-page form .button{padding:13px 20px}
+#reconecte-page form .micro{margin-top:14px;line-height:1.5;font-size:10px}
+#reconecte-page .instagram h2{font-size:44px}
+#reconecte-page .instagram>a{padding:16px 20px;border:2px solid #50000b;border-radius:100px;font-size:16px;font-weight:bold;background:#ffe0ad;white-space:normal}
+#reconecte-page .footer{border-color:#d29476}
+@media(min-width:701px) and (max-width:1100px){#reconecte-page .hero{padding-inline:24px;grid-template-columns:1.2fr 1fr}#reconecte-page .hero h1{font-size:68px;letter-spacing:-4px}#reconecte-page .title-flower{font-size:38px}#reconecte-page .hero-visual{min-height:520px}#reconecte-page .hero-logo{left:45px}#reconecte-page .signup-grid{gap:35px}}
+@media(max-width:700px){#reconecte-page h2{font-size:36px;letter-spacing:-1.7px}#reconecte-page .section{padding-block:60px}#reconecte-page .hero{padding:40px 20px 65px;grid-template-columns:1fr;gap:35px}#reconecte-page .hero h1{font-size:clamp(48px,11vw,76px);letter-spacing:-3px;margin-bottom:20px}#reconecte-page .club-label{font-size:20px}#reconecte-page .title-flower{font-size:35px;margin-left:5px}#reconecte-page .descriptor{font-size:23px}#reconecte-page .hero-visual{min-height:455px;max-width:390px}#reconecte-page .hero-logo{left:60px;right:12px;bottom:95px;border-width:5px}#reconecte-page .hero-photo{height:205px;border-width:6px}#reconecte-page .photo-note{right:0;bottom:135px;padding:20px;font-size:17px}#reconecte-page .hero:after{left:auto;right:15px;bottom:-35px;font-size:130px}#reconecte-page .ribbon{gap:13px;font-size:10px}#reconecte-page .intro{gap:35px}#reconecte-page .intro-image img{height:430px;box-shadow:-8px 8px 0 #50000b}#reconecte-page .gallery{gap:16px}#reconecte-page .gallery figure{padding:8px 8px 12px;box-shadow:4px 4px 0 #a53532}#reconecte-page .gallery figure:nth-child(2){padding-top:8px;margin-top:15px}#reconecte-page .gallery img{height:240px}#reconecte-page .gallery figure:last-child img{height:340px}#reconecte-page .testimonial:before{font-size:100px;left:auto;right:0;top:70px;bottom:auto}#reconecte-page .therapy{grid-template-columns:1fr;gap:25px}#reconecte-page .therapy-mark{font-size:95px;text-align:left;text-shadow:5px 5px #fac477}#reconecte-page .signup-grid{grid-template-columns:1fr;gap:22px}#reconecte-page .signup-intro h2{font-size:43px}#reconecte-page .form-card{padding:24px 20px;box-shadow:6px 6px 0 #8a1e39}#reconecte-page .form-fields{gap:12px}#reconecte-page .instagram h2{font-size:38px}#reconecte-page .instagram>a{font-size:14px}}
+@media(max-width:360px){#reconecte-page .form-fields{grid-template-columns:1fr}#reconecte-page .hero h1{font-size:45px}#reconecte-page .title-flower{font-size:26px}}
+
+/* Quadro abaixo da imagem, sem sobreposição em qualquer tela. */
+#reconecte-page .community-note{margin-top:28px;margin-bottom:12px;transform:none}
+
+/* Instagram: duas imagens completas, interativas e com cantos arredondados. */
+#reconecte-page .instagram{display:grid;grid-template-columns:.8fr 1.2fr;gap:65px;padding-block:80px;align-items:center}
+#reconecte-page .instagram-heading h2{margin-bottom:25px}
+#reconecte-page .instagram-handle{display:inline-block;padding:12px 19px;border:2px solid #50000b;border-radius:99px;background:#ffe0ad;font-size:15px;font-weight:bold}
+#reconecte-page .instagram-showcase{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center}
+#reconecte-page .instagram-image{display:block;border-radius:22px;overflow:hidden;border:5px solid #fff;box-shadow:0 12px 28px #50000b20;transition:transform .35s,box-shadow .35s}
+#reconecte-page .instagram-image img{border-radius:16px;width:100%;height:auto;display:block}
+#reconecte-page .instagram-profile{transform:rotate(-4deg)}
+#reconecte-page .instagram-posts{transform:rotate(4deg)}
+#reconecte-page .instagram-image:hover,#reconecte-page .instagram-image:focus-visible{transform:translateY(-8px) rotate(0deg) scale(1.025);box-shadow:0 20px 35px #50000b30}
+@media(max-width:700px){#reconecte-page .instagram{grid-template-columns:1fr;gap:30px;padding-block:55px}#reconecte-page .instagram-showcase{gap:14px}#reconecte-page .instagram-image{border-radius:17px;border-width:3px}#reconecte-page .instagram-image img{border-radius:13px}}
+@media(prefers-reduced-motion:reduce){#reconecte-page .instagram-image:hover,#reconecte-page .instagram-image:focus-visible{transform:none}}
+
+#reconecte-page .faq-callout{display:flex;justify-content:space-between;align-items:center;gap:35px}#reconecte-page .faq-callout h2{margin:0}@media(max-width:700px){#reconecte-page .faq-callout{flex-direction:column;align-items:flex-start}#reconecte-page .faq-callout .button{font-size:12px}}
+
+/* Ajustes de clareza e destaque. */
+#reconecte-page .hero:after{content:none;display:none}
+#reconecte-page .hero .community-hero-button{display:flex;width:100%;max-width:410px;margin-top:20px;padding:18px 26px;background:#fff;color:#50000b;border:2px solid #fff;box-shadow:0 5px 0 #bc421d;font-size:14px}
+#reconecte-page .hero .community-hero-button:hover{background:#fff4e0;border-color:#fff4e0}
+#reconecte-page .faq-callout{flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:28px}
+#reconecte-page .faq-callout .button{align-self:center}
+#reconecte-page .what-is{text-align:center;max-width:950px;padding-bottom:30px}
+#reconecte-page .what-is .what-lead{font-size:22px;line-height:1.5;font-weight:bold;max-width:760px;margin:0 auto 22px}
+#reconecte-page .what-is>p:not(.eyebrow):not(.what-lead){max-width:760px;margin-left:auto;margin-right:auto}
+#reconecte-page .what-pillars{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin:28px 0}
+#reconecte-page .what-pillars span{background:#f9dfc1;border:1px solid #e79a6b;border-radius:99px;padding:9px 18px;font-size:12px;font-weight:bold}
+#reconecte-page .what-is .what-note{font-size:13px;line-height:1.7}
+@media(max-width:700px){#reconecte-page .what-is .what-lead{font-size:19px}#reconecte-page .hero .community-hero-button{max-width:none}#reconecte-page .what-pillars{gap:8px}#reconecte-page .what-pillars span{font-size:11px;padding:8px 12px}}
+
+/* Composição sóbria para o espaço terapêutico. */
+#reconecte-page .therapy-editorial{border-left:2px solid #50000b;padding:30px 0 30px 28px;color:#50000b}
+#reconecte-page .therapy-editorial>span{font-size:10px;letter-spacing:3px;font-weight:bold}
+#reconecte-page .therapy-lines{height:110px;width:150px;margin:30px 0;border-top:1px solid #c58c75;border-bottom:1px solid #c58c75;position:relative}
+#reconecte-page .therapy-lines:after{content:'';position:absolute;top:50%;left:0;width:100%;border-top:1px solid #c58c75}
+#reconecte-page .therapy-editorial p{font:italic 26px/1.5 Georgia,serif;margin-bottom:24px}
+#reconecte-page .therapy-editorial small{font-size:9px;letter-spacing:2px}
+@media(max-width:700px){#reconecte-page .therapy-editorial{padding:16px 0 16px 20px}#reconecte-page .therapy-lines{display:none}#reconecte-page .therapy-editorial p{font-size:22px;margin:15px 0}#reconecte-page .therapy{gap:35px}}
